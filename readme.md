@@ -10,4 +10,24 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+It's required to have [Docker](https://docs.docker.com/get-docker/) to run the project.
+
+To start the project with docker-compose:
+
+```sh
+docker-compose up
+```
+
+To stop the project:
+
+```sh
+docker-compose down
+```
+
+The frontend will up on port 3001: 
+
+http://localhost:3001/
+
+The backend will up on port 3000:
+
+http://localhost:3000/
